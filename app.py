@@ -130,11 +130,9 @@ while True:
         elif current_playing == 'phone':
             cvzone.putTextRect(img, "PUT THE PHONE AWAY!", (50, 100), scale=2, thickness=3, colorR=(0, 165, 255))
 
-    cv2.imshow("Smart Study Monitor", img)
+    cv2.imshow("FocusGuard AI", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 cap.release()
 cv2.destroyAllWindows()
-#by Dibyendu pradhan
-# https://dibyendup.netlify.app
